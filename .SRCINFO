@@ -1,22 +1,22 @@
 pkgbase = codelobster
 	pkgdesc = Free cross-platform IDE for PHP/HTML/CSS/JavaScript development
-	pkgver = 2.5.0
+	pkgver = 2.6.0
 	pkgrel = 1
 	url = https://www.codelobsteride.com
 	arch = x86_64
 	license = custom:codelobster
 	depends = curl
 	depends = hicolor-icon-theme
+	depends = icu56
 	depends = libidn11
 	depends = libldap24
 	depends = libssh
 	depends = libxcb
 	depends = rtmpdump
-	depends = qt5-websockets
 	provides = codelobster-ide
-	source = https://codelobsteride.com/download/codelobsteride-2.5.0_amd64.deb
+	source = https://codelobsteride.com/download/codelobsteride-2.6.0_amd64.deb
 	source = LICENSE
-	sha256sums = b271192e4493979670585ddb2db904bc71c5e9e01d9ef5d0b5cb9af30f5728f2
+	sha256sums = 56ad35fe9ee5cd26bbd49b14331365afc670a93da3079e560bd5e3d2cb5b4366
 	sha256sums = 70ce1193a0036cff727f29e1c94bd3ddd61599993ba5d130491037b91158a73a
 
 pkgname = codelobster
